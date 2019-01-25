@@ -1,0 +1,43 @@
+.feature-boxes {
+    margin-bottom: 40px;
+}
+
+.feature-boxes>.container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-box {
+    margin-bottom: 60px;
+    text-align: center;
+    flex-basis: 31%;
+}
+
+.feature-box:hover i {
+    background: #49c5b6;
+    color: #fff;
+    font-size: 76px;
+}
+
+.feature-box i {
+    transition: all 0.2s ease;
+    font-size: 60px;
+    line-height: 120px;
+    color: #202121;
+    border: 1px solid #202121;
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+}
+
+.feature-box h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.feature-box p {
+    margin: 0;
+    color: #808080;
+}

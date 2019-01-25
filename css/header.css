@@ -1,7 +1,6 @@
-
 .page-header {
 	background: #f4f7f6;
-	box-shadow: 0 0 24px rgba(0,0,0,0.12);
+	box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
 	padding: 12px 0;
 	position: fixed;
 	left: 0;
@@ -10,7 +9,7 @@
 	z-index: 999;
 }
 
-.page-header > .container {
+.page-header>.container {
 	justify-content: space-between;
 	align-items: center;
 }
