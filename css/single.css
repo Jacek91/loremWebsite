@@ -1,0 +1,30 @@
+.single-content {
+    margin: 20px 0 70px;
+}
+
+.single-content .container {
+    max-width: 700px;
+}
+
+.single-content article h2 {
+    margin: 0 0 15px;
+}
+
+.single-content article h3 {
+    margin: 0 0 12px;
+}
+
+.single-feature-icon {
+    float: left;
+    font-size: 160px;
+    line-height: 170px;
+    display: block;
+    text-align: center;
+    width: 210px;
+    height: 170px;
+    color: #3e6edf;
+}
+
+.gallery-author-links {
+    margin-top: 20px;
+}

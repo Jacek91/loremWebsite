@@ -63,3 +63,7 @@
 .remodal-close {
     transform: translateX(90%);
 }
+
+button.remodal-close::before {
+    left: 35px;
+}
