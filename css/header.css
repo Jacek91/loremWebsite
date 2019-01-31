@@ -48,3 +48,26 @@
 	opacity: 1;
 	border-radius: 50px;
 }
+
+@media (max-width: 990px) {
+	.page-header {
+		position: static;
+	}
+
+	.page-header>.container {
+		flex-direction: column;
+	}
+
+	.menu-brand {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+	.menu-links ul {
+		text-align: center;
+	}
+
+	.menu-links li {
+		margin-bottom: 4px;
+	}
+}

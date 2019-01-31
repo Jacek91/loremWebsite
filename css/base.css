@@ -1,33 +1,33 @@
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #f4f7f6;
-	color: #202121;
-	font: 18px / 1.4 Lato, Arial, Helvetica, sans-serif;
-	padding-top: 72px;
+  background-color: #f4f7f6;
+  color: #202121;
+  font: 18px / 1.4 Lato, Arial, Helvetica, sans-serif;
+  padding-top: 72px;
 }
 
 p {
-	margin: 0 0 12px;
+  margin: 0 0 12px;
 }
 
 a {
-	text-decoration: none;
-	color: #42AB9E;
-	transition: all 150ms ease;
+  text-decoration: none;
+  color: #42ab9e;
+  transition: all 150ms ease;
 }
 
 a:hover {
-	opacity: 0.9;
+  opacity: 0.9;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 button,
@@ -35,23 +35,23 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: Lato, Arial, Helvetica, sans-serif;
-	line-height: 1.4;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  line-height: 1.4;
 }
 
 input,
 select,
 textarea {
-	border-radius: 3px;
-	border: 1px solid #ccc;
-	padding: 6px 12px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-	outline: none;
-	border-color: #42AB9E;
+  outline: none;
+  border-color: #42ab9e;
 }
 
 h1,
@@ -60,41 +60,47 @@ h3,
 h4,
 h5,
 h6 {
-	color: #202121;
+  color: #202121;
 }
 
 h1,
 h2,
 h3 {
-	line-height: 1.2;
+  line-height: 1.2;
 }
 
 h4,
 h5,
 h6 {
-	line-height: 1.3;
+  line-height: 1.3;
 }
 
 h1 {
-	font-size: 54px;
+  font-size: 54px;
 }
 
 h2 {
-	font-size: 46px;
+  font-size: 46px;
 }
 
 h3 {
-	font-size: 32px;
+  font-size: 32px;
 }
 
 h4 {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 h5 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 h6 {
-	font-size: 18px;
+  font-size: 18px;
+}
+
+@media (max-width: 990px) {
+  body {
+    padding-top: 0;
+  }
 }

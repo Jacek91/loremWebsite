@@ -89,3 +89,32 @@
 .copyrights p {
     margin: 0;
 }
+
+@media (max-width: 800px) {
+    .page-footer>.container {
+        flex-direction: column;
+    }
+
+    .contact-form,
+    .contact-info {
+        flex-basis: 100%;
+    }
+
+    .contact-form {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .form-group-1-2 {
+        flex-direction: column;
+    }
+
+    .form-group-1-2 div {
+        flex-basis: 100%;
+    }
+
+    .form-group-1-2>div:first-child {
+        margin-bottom: 15px;
+    }
+}

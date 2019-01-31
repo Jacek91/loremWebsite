@@ -41,3 +41,19 @@
     margin: 0;
     color: #808080;
 }
+
+@media (max-width: 800px) {
+    .feature-boxes {
+        margin-bottom: 0;
+    }
+
+    .feature-box {
+        flex-basis: 47%;
+    }
+}
+
+@media (max-width: 540px) {
+    .feature-box {
+        flex-basis: 100%;
+    }
+}

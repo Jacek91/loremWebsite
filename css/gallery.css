@@ -36,3 +36,15 @@
 .gallery-item p {
     margin: 0;
 }
+
+@media (max-width: 800px) {
+    .gallery-item {
+        flex-basis: 47%;
+    }
+}
+
+@media (max-width: 540px) {
+    .gallery-item {
+        flex-basis: 100%;
+    }
+}

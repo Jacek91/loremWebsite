@@ -67,3 +67,19 @@
 button.remodal-close::before {
     left: 35px;
 }
+
+@media (max-width: 620px) {
+    .newsletter>.container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter-text,
+    .newsletter-cta {
+        flex-basis: 100%;
+    }
+
+    .newsletter-text {
+        margin-bottom: 30px;
+    }
+}
