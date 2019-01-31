@@ -9,3 +9,6 @@ My first responsive website based on flexbox
 * JavaScript
 * jQuery
 
+## Live Demo:
+ https://jacek91.github.io/loremWebsite/
+
